@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: black;
+  opacity: 0.8;
+  padding: 2em;
+  border-radius: 12px;
+}
+main .search-city {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .search-city .input-city {
+  font-size: 1.5em;
+  border: none;
+  padding: 0.2em 0.5em;
+  width: 80%;
+  outline: none;
+  border-radius: 12px;
+}
+main .search-city .btn-search {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  padding: 0.8em;
+  border-radius: 50%;
+  border: 0.05em solid black;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+main .info-city {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+main .info-city .title-city {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+main .info-city .forecast {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}/*# sourceMappingURL=style.css.map */
